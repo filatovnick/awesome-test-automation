@@ -40,6 +40,7 @@ Also:
     * [unittest2](https://pypi.python.org/pypi/unittest2) - is a backport of the new features added to the unittest testing framework in Python 2.7 and onwards.
     * [pytest](http://pytest.org/) - is a mature full-featured Python testing tool that helps you write better programs.
         * [plugincompat](http://plugincompat.herokuapp.com/) - Test execution and compatibility checks for pytest plugins
+    * [test-junkie](https://github.com/ArturSpirin/test_junkie) - Highly configurable modern testing framework.
     * [nosetests](https://nose.readthedocs.org/en/latest/) - is a nicer testing for python.
     * [slash](https://github.com/slash-testing/slash) - is a testing framework written in Python.
     * [lemoncheesecake](https://github.com/lemoncheesecake/lemoncheesecake) - is a Python framework intended to functional testing, it provides fixtures, matchers, test organization through test suites hierarchy and metadata (test/suite name, description, tags, properties, links), rich reporting features and various report formats (JSON, XML, HTML, Junit)
@@ -92,6 +93,9 @@ Also:
     * [pretenders](https://github.com/pretenders/pretenders) - fake servers for testing.
     * [mock-server](https://github.com/tomashanacek/mock-server) - Simple mock server for REST and XML-RPC API with admin panel based on tornado.
     * [VCR.py](https://github.com/kevin1024/vcrpy) - Automatically mock your HTTP interactions to simplify and speed up testing.
+    * [model-mmomy](https://github.com/vandersonmota/model_mommy) - Offers a smart way to create fixtures for testing in Django. With a simple and powerful API you can create many objects with a single line of code.
+    * [django-test-plus](https://github.com/revsys/django-test-plus) - Useful additions to Django's default TestCase.
+
 
 ## Test Data manipulation
 
@@ -158,6 +162,7 @@ Also:
     * [Mailosaur](https://github.com/mailosaur/mailosaur-python) - Python client for email testing/automation via Mailosaur.
     * [gauge](https://github.com/getgauge/gauge) - Gauge is a light weight cross-platform test automation tool. It provides the ability to author test cases in the business language, actually written in golang with [python language driver](https://github.com/getgauge/gauge-python).
     * [Golem](https://github.com/lucianopuccio/golem) - Golem is a complete test automation tool and framework for end-to-end testing. It creates powerful, robust and maintainable test suites, it's easy to learn even without a lot of programming knowledge. It is based on Selenium Webdriver and it can be extended using Python
+    * [Pylenium.io](https://elsnoman.gitbook.io/pylenium/) - Pylenium brings the best of Selenium, Cypress and Python into one package.
 
 ## Mobile test automation
 
@@ -199,6 +204,8 @@ Also:
 * [pyresttest](https://github.com/svanoort/pyresttest) - A REST testing and API microbenchmarking tool
 * [siesta](http://scastillo.github.com/siesta) - Python REST Client
 * [play_requests](https://github.com/davidemoro/play_requests) - [pytest-play](https://github.com/pytest-dev/pytest-play) plugin driving the famous python requests library for making HTTP calls using plain YAML files
+* [gabbi](https://github.com/cdent/gabbi) - a tool for running HTTP tests where requests and responses are expressed as declarations in YAML files.
+* [Schemathesis](https://github.com/kiwicom/schemathesis) - Schemathesis is a tool for property-based testing of applications based on Open API & Swagger specs. It reads the application schema and generates test cases which will ensure that your application is compliant with its schema. Includes `pytest` & `unittest` integrations.
 
 ## Virtual environments
 
@@ -215,7 +222,7 @@ Also:
 
 ## Performance & stress & load
 
-* [Multi-Mechanize](http://testutils.org/multi-mechanize/) - An open source framework for performance and load testing.
+* [Multi-Mechanize](https://multi-mechanize.readthedocs.io) - An open source framework for performance and load testing.
 * [locust](https://github.com/locustio/locust) - Scalable user load testing tool written in Python.
 * [Yandex.Tank](https://github.com/yandex/yandex-tank) - Load and performance benchmark tool.
 * [pytest-benchmark](https://github.com/ionelmc/pytest-benchmark) - A py.test fixture for benchmarking code.
@@ -246,6 +253,7 @@ Also:
 * [allure pytest](https://github.com/allure-framework/allure-python) - Allure adapter for PyTest framework.
 * [HTMLTestRunner](http://tungwaiyip.info/software/HTMLTestRunner.html) - An extension to the Python standard library's unittest module. It generates easy to use HTML test reports.
 * [unittest-xml-reporting](https://github.com/xmlrunner/unittest-xml-reporting) - A unittest test runner that can save test results to XML files that can be consumed by a wide range of tools, such as build systems, IDEs and continuous integration servers.
+* [PrettyTable](https://github.com/jazzband/prettytable) - Python library to generate nice table reports right in console.
 
 ## Documentation generation
 
@@ -293,6 +301,11 @@ Libraries that may help you to build better test automation.
 * [extratools](https://www.chuancong.site/extratools/) - 145+ extra higher-level functional tools that go beyond standard library’s itertools, functools, etc. and popular third-party libraries like toolz, fancy, and more-itertools.
 * [retrying](https://github.com/rholder/retrying) - Retrying is an Apache 2.0 licensed general-purpose retrying library, written in Python, to simplify the task of adding retry behavior to just about anything. 
 * [mitmproxy](https://mitmproxy.org/) - mitmproxy is a free and open source interactive HTTPS proxy. 
+* [Python MSS](https://github.com/BoboTiG/python-mss) - An ultra fast cross-platform multiple screenshots module in pure Python using ctypes. 
+* [Loguru](https://github.com/Delgan/loguru) - Loguru is a library which aims to bring enjoyable logging in Python.
+* [prettyprinter](https://github.com/tommikaikkonen/prettyprinter) - Syntax-highlighting, declarative and composable pretty printer for Python 3.5+
+* [jsonschema](https://github.com/Julian/jsonschema) - JSON Schema implementation
+for Python. Powerful tool for validating the structure of JSON data.
 
 # Resources
 Where to discover new libraries, information, tools, etc.
